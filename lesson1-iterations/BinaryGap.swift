@@ -1,3 +1,12 @@
+/*
+    Codility Lesson 1 - BinaryGap
+    : Find longest sequence of zeros in binary representation of an integer.
+
+    - Level of Difficulty: Painless
+    - Task Score: 100%
+    - Correntness: 100%
+*/
+
 import Foundation
 import Glibc
 
