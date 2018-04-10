@@ -1,5 +1,7 @@
 /*
-    Codility Lesson 1 - BinaryGap
+    Codility Lesson 1 - Iterations
+
+    BinaryGap
     : Find longest sequence of zeros in binary representation of an integer.
 
     - Level of Difficulty: Painless
