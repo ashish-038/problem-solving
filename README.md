@@ -1,7 +1,12 @@
-# Codility Lessons in Swift
+# Problem Solving
 
-Solutions for coding problems of [Codility Lessons](https://app.codility.com/programmers/lessons) in Swift
+Solutions for coding problems
+
+## Sources of Coding Problems
+
+- [Codility](https://app.codility.com/programmers/lessons)
+- [HackerRank](https://www.hackerrank.com)
 
 ## Language
 
-Swift 3
+- Swift
