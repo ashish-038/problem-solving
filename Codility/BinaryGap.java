@@ -1,9 +1,9 @@
 /*
     BinaryGap
-    : Find longest sequence of zeros in binary representation of an integer.
-
+    - Find longest sequence of zeros in binary representation of an integer.
     - Difficulty Level: PAINLESS
 
+    Results
     - Task Score: 100%
     - Correctness: 100%
  */
