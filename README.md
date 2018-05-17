@@ -1,6 +1,6 @@
 # Problem Solving
 
-Solutions for coding problems
+Solutions for Algorithmic Problems
 
 ## Sources
 
