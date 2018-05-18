@@ -1,0 +1,68 @@
+# Codility [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
+
+## Progress
+
+- Lesson 1. Iterations
+    - [x] [100%] BinaryGap
+- Lesson 2. Arrays
+    - [x] [100%] CyclicRotation
+    - [x] [100%] OddOccurrencesInArray
+- Lesson 3. Time Complexity
+    - [x] [100%] FrogJmp
+    - [x] [100%] PermMissingElem
+    - [x] [100%] TapeEquilibrium
+- Lesson 4. Counting Elements
+    - [x] [100%] FrogRiverOne
+    - [x] [100%] MissingInteger
+    - [x] [100%] PermCheck
+    - [ ] [66%] MaxCounters
+- Lesson 5. Prefix Sums
+    - [x] [100%] CountDiv
+    - [x] [100%] PassingCars
+    - [ ] GenomicRangeQuery
+    - [ ] MinAvgTwoSlice
+- Lesson 6. Sorting
+    - [x] [100%] MaxProductOfThree
+    - [x] [100%] Distinct
+    - [x] [100%] Triangle
+    - [ ] NumberOfDiscIntersections
+- Lesson 7. Stacks and Queues
+    - [ ] StoneWall
+    - [ ] Brackets
+    - [ ] Nesting
+    - [ ] Fish
+- Lesson 8. Leader
+    - [ ] Dominator
+    - [ ] EquiLeader
+- Lesson 9. Maximum slice problem
+    - [ ] MaxProfit
+    - [ ] MaxDoubleSliceSum
+    - [ ] MaxSliceSum
+- Lesson 10. Prime and composite numbers
+    - [ ] CountFactors
+    - [ ] MinPerimeterRectangle
+    - [ ] Flags
+    - [ ] Peaks
+- Lesson 11. Sieve of Eratosthenes
+    - [ ] CountSemiprimes
+    - [ ] CountNonDivisible
+- Lesson 12. Euclidean algorithm
+    - [ ] ChocolatesByNumbers
+    - [ ] CommonPrimeDivisors
+- Lesson 13. Fibonacci numbers
+    - [ ] Ladder
+    - [ ] FibFrog
+- Lesson 14. Binary search algorithm
+    - [ ] NailingPlanks
+    - [ ] MinMaxDivision
+- Lesson 15. Caterpillar method
+    - [ ] CountTriangles
+    - [ ] AbsDistinct
+    - [ ] CountDistinctSlices
+    - [ ] MinAbsSumOfTwo
+- Lesson 16. Greedy algorithms
+    - [ ] MaxNonoverlappingSegments
+    - [ ] TieRopes
+- Lesson 17. Dynamic programming
+    - [ ] NumberSolitaire
+    - [ ] MinAbsSum
