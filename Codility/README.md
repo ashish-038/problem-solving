@@ -27,9 +27,9 @@
     - [x] [100%] Triangle
     - [ ] NumberOfDiscIntersections
 - Lesson 7. Stacks and Queues
-    - [ ] StoneWall
-    - [ ] Brackets
-    - [ ] Nesting
+    - [x] [100%] StoneWall
+    - [x] [100%] Brackets
+    - [x] [100%] Nesting
     - [ ] Fish
 - Lesson 8. Leader
     - [ ] Dominator
