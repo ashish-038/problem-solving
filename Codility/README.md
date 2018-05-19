@@ -39,8 +39,8 @@
     - [x] [100%] MaxDoubleSliceSum
     - [x] [100%] MaxSliceSum
 - Lesson 10. Prime and composite numbers
-    - [ ] CountFactors
-    - [ ] MinPerimeterRectangle
+    - [x] [100%] CountFactors
+    - [x] [100%] MinPerimeterRectangle
     - [ ] Flags
     - [ ] Peaks
 - Lesson 11. Sieve of Eratosthenes
