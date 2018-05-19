@@ -35,9 +35,9 @@
     - [x] [100%] Dominator
     - [x] [100%] EquiLeader
 - Lesson 9. Maximum slice problem
-    - [ ] MaxProfit
-    - [ ] MaxDoubleSliceSum
-    - [ ] MaxSliceSum
+    - [x] [100%] MaxProfit
+    - [x] [100%] MaxDoubleSliceSum
+    - [x] [100%] MaxSliceSum
 - Lesson 10. Prime and composite numbers
     - [ ] CountFactors
     - [ ] MinPerimeterRectangle
