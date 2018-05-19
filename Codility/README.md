@@ -30,10 +30,10 @@
     - [x] [100%] StoneWall
     - [x] [100%] Brackets
     - [x] [100%] Nesting
-    - [ ] Fish
+    - [x] [100%] Fish
 - Lesson 8. Leader
-    - [ ] Dominator
-    - [ ] EquiLeader
+    - [x] [100%] Dominator
+    - [x] [100%] EquiLeader
 - Lesson 9. Maximum slice problem
     - [ ] MaxProfit
     - [ ] MaxDoubleSliceSum
