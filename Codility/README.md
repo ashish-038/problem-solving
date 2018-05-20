@@ -47,7 +47,7 @@
     - [ ] CountSemiprimes
     - [ ] CountNonDivisible
 - Lesson 12. Euclidean algorithm
-    - [ ] ChocolatesByNumbers
+    - [x] [100%] ChocolatesByNumbers
     - [ ] CommonPrimeDivisors
 - Lesson 13. Fibonacci numbers
     - [ ] Ladder
