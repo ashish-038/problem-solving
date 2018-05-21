@@ -56,7 +56,7 @@
     - [ ] NailingPlanks
     - [ ] MinMaxDivision
 - Lesson 15. Caterpillar method
-    - [ ] CountTriangles
+    - [x] CountTriangles
     - [ ] AbsDistinct
     - [ ] CountDistinctSlices
     - [ ] MinAbsSumOfTwo
