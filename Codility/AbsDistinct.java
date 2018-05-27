@@ -6,7 +6,7 @@
     Results
     - Task Score: 100%
     - Correctness: 100%
-    - Performance: 66%
+    - Performance: 100%
  */
 
 import java.util.*;
@@ -18,12 +18,11 @@ class Solution {
         if (length == 1) return 1;
         
         // regular case
-        // prepare two arraylists
+        // prepare two lists
         ArrayList<Integer> negatives = new ArrayList<>();
         ArrayList<Integer> positives = new ArrayList<>();
         
         int currentNumber = A[0];
-        
         if (currentNumber <= 0) {
             negatives.add(-currentNumber);
         } else {
@@ -32,7 +31,6 @@ class Solution {
         
         for (int i = 1; i < length; i++) {
             int number = A[i];
-            
             if (number == currentNumber) continue;
             
             if (number <= 0) {
@@ -43,7 +41,7 @@ class Solution {
             currentNumber = number;
         }
         
-        // count
+        // count by comparing two lists
         if (negatives.size() == 0) {
             return positives.size();
         } else if (positives.size() == 0) {
@@ -63,20 +61,15 @@ class Solution {
             longerList = negatives;
         }
         
-        // int shorterIndex = 0;
         int longerIndex = 0;
-        
-        // System.out.println(shorterList);
-        // System.out.println(longerList);
-        
         for (int i = 0; i < shorterList.size(); i++) {
-            while (shorterList.get(i) > longerList.get(longerIndex) && longerIndex < longerList.size() - 1) {
+            int shorterNumber = shorterList.get(i);
+            while (shorterNumber > longerList.get(longerIndex) && longerIndex < longerList.size() - 1) {
                 longerIndex++;
             }
-            
             if (longerIndex == longerList.size()) break;
             
-            if (shorterList.get(i) == longerList.get(longerIndex)) {
+            if (shorterNumber == longerList.get(longerIndex)) {
                 count--;
             }
         }
