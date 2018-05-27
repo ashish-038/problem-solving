@@ -6,7 +6,7 @@
     Results
     - Task Score: 100%
     - Correctness: 100%
-    - Performance: 100%
+    - Performance: 100%, O(N) or O(N*log(N))
  */
 
 import java.util.*;
