@@ -19,14 +19,14 @@ class Solution {
         
         // regular case
         // prepare two lists
-        ArrayList<Integer> negatives = new ArrayList<>();
-        ArrayList<Integer> positives = new ArrayList<>();
+        ArrayList<Integer> firstPart = new ArrayList<>();
+        ArrayList<Integer> secondPart = new ArrayList<>();
         
         int currentNumber = A[0];
         if (currentNumber <= 0) {
-            negatives.add(-currentNumber);
+            firstPart.add(-currentNumber);
         } else {
-            positives.add(currentNumber);
+            secondPart.add(currentNumber);
         }
         
         for (int i = 1; i < length; i++) {
@@ -34,42 +34,42 @@ class Solution {
             if (number == currentNumber) continue;
             
             if (number <= 0) {
-                negatives.add(0, -number);
+                firstPart.add(0, -number);
             } else {
-                positives.add(number);
+                secondPart.add(number);
             }
             currentNumber = number;
         }
         
         // count by comparing two lists
-        if (negatives.size() == 0) {
-            return positives.size();
-        } else if (positives.size() == 0) {
-            return negatives.size();
+        if (firstPart.size() == 0) {
+            return secondPart.size();
+        } else if (secondPart.size() == 0) {
+            return firstPart.size();
         }
         
-        int count = negatives.size() + positives.size();
+        int count = firstPart.size() + secondPart.size();
         
-        ArrayList<Integer> shorterList;
-        ArrayList<Integer> longerList;
+        ArrayList<Integer> shortList;
+        ArrayList<Integer> longList;
         
-        if (negatives.size() < positives.size()) {
-            shorterList = negatives;
-            longerList = positives;
+        if (firstPart.size() < secondPart.size()) {
+            shortList = firstPart;
+            longList = secondPart;
         } else {
-            shorterList = positives;
-            longerList = negatives;
+            shortList = secondPart;
+            longList = firstPart;
         }
         
-        int longerIndex = 0;
-        for (int i = 0; i < shorterList.size(); i++) {
-            int shorterNumber = shorterList.get(i);
-            while (shorterNumber > longerList.get(longerIndex) && longerIndex < longerList.size() - 1) {
-                longerIndex++;
+        int longIndex = 0;
+        for (int i = 0; i < shortList.size(); i++) {
+            int shortNumber = shortList.get(i);
+            while (shortNumber > longList.get(longIndex) && longIndex < longList.size() - 1) {
+                longIndex++;
             }
-            if (longerIndex == longerList.size()) break;
+            if (longIndex == longList.size()) break;
             
-            if (shorterNumber == longerList.get(longerIndex)) {
+            if (shortNumber == longList.get(longIndex)) {
                 count--;
             }
         }
