@@ -28,3 +28,6 @@ numbers.add(0, 100);
 numbers.remove(0);
 numbers.get(0);
 System.out.println(numbers);
+
+// HashMap
+map.getOrDefault(key, defaultValue);
