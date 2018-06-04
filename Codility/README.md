@@ -58,11 +58,11 @@
 - Lesson 15. Caterpillar method
     - [x] [100%] CountTriangles
     - [x] [100%] AbsDistinct
-    - [ ] CountDistinctSlices
+    - [x] [100%] CountDistinctSlices
     - [ ] MinAbsSumOfTwo
 - Lesson 16. Greedy algorithms
-    - [ ] MaxNonoverlappingSegments
-    - [ ] TieRopes
+    - [x] [100%] MaxNonoverlappingSegments
+    - [x] [100%] TieRopes
 - Lesson 17. Dynamic programming
     - [ ] NumberSolitaire
     - [ ] MinAbsSum
