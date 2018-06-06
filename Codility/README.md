@@ -15,7 +15,7 @@
     - [x] [100%] FrogRiverOne
     - [x] [100%] MissingInteger
     - [x] [100%] PermCheck
-    - [ ] [66%] MaxCounters
+    - [x] [100%] MaxCounters
 - Lesson 5. Prefix Sums
     - [x] [100%] CountDiv
     - [x] [100%] PassingCars
