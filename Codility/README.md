@@ -19,7 +19,7 @@
 - Lesson 5. Prefix Sums
     - [x] [100%] CountDiv
     - [x] [100%] PassingCars
-    - [ ] GenomicRangeQuery
+    - [x] [100%] GenomicRangeQuery
     - [ ] MinAvgTwoSlice
 - Lesson 6. Sorting
     - [x] [100%] MaxProductOfThree
