@@ -20,7 +20,7 @@
     - [x] [100%] CountDiv
     - [x] [100%] PassingCars
     - [x] [100%] GenomicRangeQuery
-    - [ ] MinAvgTwoSlice
+    - [x] [100%] MinAvgTwoSlice
 - Lesson 6. Sorting
     - [x] [100%] MaxProductOfThree
     - [x] [100%] Distinct
