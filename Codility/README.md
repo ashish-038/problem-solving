@@ -25,7 +25,7 @@
     - [x] [100%] MaxProductOfThree
     - [x] [100%] Distinct
     - [x] [100%] Triangle
-    - [ ] NumberOfDiscIntersections
+    - [ ] [56%] NumberOfDiscIntersections
 - Lesson 7. Stacks and Queues
     - [x] [100%] StoneWall
     - [x] [100%] Brackets
